@@ -19,5 +19,13 @@
 
      -->
 
+     <form action="./landing-page.php" method="POST">
+
+        <input type="text" name="paragrafo" placeholder="scrivi"><br>
+        <input type="text" name="parola" placeholder="parola da censurare"><br>
+        <button type="submit">invia</button>
+
+     </form>
+
 </body>
 </html>
