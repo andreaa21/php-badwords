@@ -16,8 +16,17 @@ $paragrafo = $_POST['paragrafo'];
 </head>
 <body>
     
-    <?php echo $paragrafo ?> <?php echo strlen($paragrafo) ?> <br>
-    <?php echo str_replace("$parola", "(***)", "$paragrafo") ?> <?php echo strlen($paragrafo) ?>
-
+    <p>
+        <?php echo $paragrafo ?>
+    </p> 
+    <span>
+        <?php echo strlen($paragrafo) ?>
+    </span>
+    <p>
+        <?php echo str_replace("$parola", "(***)", "$paragrafo") ?>
+    </p> 
+    <span>
+        <?php echo strlen($paragrafo) ?>
+    </span>
 </body>
 </html>
